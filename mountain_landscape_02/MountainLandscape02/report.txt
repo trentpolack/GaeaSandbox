@@ -1,0 +1,72 @@
+
+──────────────────────────────────────────────────────────────────────────────────────────  GAEA BUILD SWARM  2.1.2.0 ──
+
+                                                                                   
+          Filename:  │ C:/development/Gaea/Projects/mountain_landscape_02.terrain  
+    Build Location:  │ C:\development\Gaea\Builds\mountain_landscape_02\008        
+        Build Type:  │ Standard Cropped to Tiles                                   
+  Build Resolution:  │ 4096 × 4096                                                 
+     Build Profile:  │ None / Last Saved Settings                                  
+             Nodes:  │ 47 to build                                                 
+                     │ 05 to export                                                
+             Tiles:  │ 4                                                           
+                                                                                   
+924 - Combine - failed!
+130 - Combine - failed!
+507 - Unity - failed!
+488 - AlbedoFinal - failed!
+714 - NormalMapOutputA - failed!
+
+──────────────────────────────────────────────────────────────────────────────────────────  GAEA BUILD SWARM  2.1.2.0 ──
+
+                                                                                   
+          Filename:  │ C:/development/Gaea/Projects/mountain_landscape_02.terrain  
+    Build Location:  │ C:\development\Gaea\Builds\mountain_landscape_02\008        
+        Build Type:  │ Standard Cropped to Tiles                                   
+  Build Resolution:  │ 4096 × 4096                                                 
+     Build Profile:  │ None / Last Saved Settings                                  
+             Nodes:  │ 47 to build                                                 
+                     │ 05 to export                                                
+             Tiles:  │ 4                                                           
+                                                                                   
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────── Build Report ──
+
+              Build Results                                  Statistics                  
+                                                                                         
+          Result: │ Success                           Combine │ 0:00:00.143              
+      Resolution: │ 4096                        MountainRange │ 0:00:08.652              
+      Node Count: │ 47                               Mountain │ 0:00:09.821              
+      Start Time: │ 06/20/2025 21:55:01                  Lake │ 0:00:07.678              
+        End Time: │ 06/20/2025 21:58:45             LineNoise │ 0:00:00.173              
+        Duration: │ 00:03:43.3537294                SlopeWarp │ 0:01:06.739              
+  Non-Build Time: │ 00:00:29.0567293                   Uplift │ 0:00:04.439              
+                                                      Erosion │ 0:00:31.134              
+                                                    Sediments │ 0:00:02.962              
+                                                GroundTexture │ 0:00:00.198              
+                                                  TextureBase │ 0:00:03.523              
+                                                       SatMap │ 0:00:00.36               
+                                                       SatMap │ 0:00:00.195              
+                                                       Wizard │ 0:00:17.38               
+                                                   WaterColor │ 0:00:00.442              
+                                                 ColorErosion │ 0:00:01.315              
+                                                   Weathering │ 0:00:04.256              
+                                               MountainAlbedo │ 0:00:00.829              
+                                                     Erosion2 │ 0:00:01.071              
+                                                       Debris │ 0:00:06.861              
+                                                       Rugged │ 0:00:06.45               
+                                             NormalMapOutputA │ 0:00:00.595              
+                                                       SatMap │ 0:00:00.312              
+                                                     Erosion2 │ 0:00:00.879              
+                                                   Weathering │ 0:00:01.222              
+                                                       Stones │ 0:00:12.826              
+                                                      Combine │ 0:00:00.151              
+                                                       Dilate │ 0:00:00.449              
+                                                           AO │ 0:00:02.03               
+                                                      Combine │ 0:00:00.175              
+                                                  AlbedoFinal │ 0:00:00.344              
+                                                              │                          
+                                                      Fastest │ ColorErosion @ 0:00:00   
+                                                      Slowest │ SlopeWarp @ 0:01:06.739  
+                                                                                         
+                                               * nodes that took <100ms are excluded.    

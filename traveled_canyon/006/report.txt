@@ -1,0 +1,43 @@
+
+──────────────────────────────────────────────────────────────────────────────────────────  GAEA BUILD SWARM  2.1.2.0 ──
+
+                                                                             
+          Filename:  │ C:/development/Gaea/Projects/traveled_canyon.terrain  
+    Build Location:  │ C:\development\Gaea\Builds\traveled_canyon\006        
+        Build Type:  │ Standard                                              
+  Build Resolution:  │ 2048 × 2048                                           
+     Build Profile:  │ None / Last Saved Settings                            
+             Nodes:  │ 19 to build                                           
+                     │ 03 to export                                          
+                                                                             
+841 - Unity Expor - failed!
+841 - Unity Expor - failed!
+
+──────────────────────────────────────────────────────────────────────────────────────────  GAEA BUILD SWARM  2.1.2.0 ──
+
+                                                                             
+          Filename:  │ C:/development/Gaea/Projects/traveled_canyon.terrain  
+    Build Location:  │ C:\development\Gaea\Builds\traveled_canyon\006        
+        Build Type:  │ Standard                                              
+  Build Resolution:  │ 2048 × 2048                                           
+     Build Profile:  │ None / Last Saved Settings                            
+             Nodes:  │ 19 to build                                           
+                     │ 03 to export                                          
+                                                                             
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────── Build Report ──
+
+              Build Results                              Statistics              
+                                                                                 
+          Result: │ Success                     Stratify │ 0:00:00.677           
+      Resolution: │ 2048                          Canyon │ 0:00:11.189           
+      Node Count: │ 19                          Outcrops │ 0:00:11.89            
+      Start Time: │ 05/26/2025 00:22:50      TextureBase │ 0:00:00.799           
+        End Time: │ 05/26/2025 00:23:46       Weathering │ 0:00:01.038           
+        Duration: │ 00:00:55.7060256              Median │ 0:00:01.54            
+  Non-Build Time: │ 00:00:01.6860255              Wizard │ 0:00:26.756           
+                                                         │                       
+                                                 Fastest │ Draw @ 0:00:00        
+                                                 Slowest │ Wizard @ 0:00:26.756  
+                                                                                 
+                                           * nodes that took <100ms are excluded.

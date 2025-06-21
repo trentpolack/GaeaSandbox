@@ -1,0 +1,52 @@
+
+──────────────────────────────────────────────────────────────────────────────────────────  GAEA BUILD SWARM  2.1.2.0 ──
+
+                                                                   
+          Filename:  │ C:/development/Gaea/Projects/mesas.terrain  
+    Build Location:  │ C:\development\Gaea\Builds\mesas\004        
+        Build Type:  │ Standard Cropped to Tiles                   
+  Build Resolution:  │ 4096 × 4096                                 
+     Build Profile:  │ None / Last Saved Settings                  
+             Nodes:  │ 33 to build                                 
+                     │ 10 to export                                
+             Tiles:  │ 4                                           
+                                                                   
+
+──────────────────────────────────────────────────────────────────────────────────────────  GAEA BUILD SWARM  2.1.2.0 ──
+
+                                                                   
+          Filename:  │ C:/development/Gaea/Projects/mesas.terrain  
+    Build Location:  │ C:\development\Gaea\Builds\mesas\004        
+        Build Type:  │ Standard Cropped to Tiles                   
+  Build Resolution:  │ 4096 × 4096                                 
+     Build Profile:  │ None / Last Saved Settings                  
+             Nodes:  │ 33 to build                                 
+                     │ 10 to export                                
+             Tiles:  │ 4                                           
+                                                                   
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────── Build Report ──
+
+              Build Results                               Statistics                
+                                                                                    
+          Result: │ Success                     Mountain │ 0:00:07.494              
+      Resolution: │ 4096                        Erosion2 │ 0:00:00.578              
+      Node Count: │ 33                         Sandstone │ 0:00:15.203              
+      Start Time: │ 05/28/2025 17:29:28           SatMap │ 0:00:01.43               
+        End Time: │ 05/28/2025 17:30:40      TextureBase │ 0:00:02.332              
+        Duration: │ 00:01:12.7332517            Mountain │ 0:00:05.576              
+  Non-Build Time: │ 00:00:04.2792516            Erosion2 │ 0:00:00.476              
+                                               Sandstone │ 0:00:13.934              
+                                                Mountain │ 0:00:05.462              
+                                                Erosion2 │ 0:00:00.537              
+                                               Sandstone │ 0:00:13.892              
+                                               Occlusion │ 0:00:00.26               
+                                                    Soil │ 0:00:00.48               
+                                                 RockMap │ 0:00:00.146              
+                                                   Unity │ 0:00:00.178              
+                                                      AO │ 0:00:00.157              
+                                                         │                          
+                                                 Fastest │ Wizard @ 0:00:00         
+                                                 Slowest │ Sandstone @ 0:00:15.203  
+                                                                                    
+                                            * nodes that took <100ms are excluded.  
