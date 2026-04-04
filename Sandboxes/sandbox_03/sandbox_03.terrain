@@ -1,0 +1,336 @@
+{
+  "$id": "1",
+  "Assets": {
+    "$id": "2",
+    "$values": [
+      {
+        "$id": "3",
+        "Terrain": {
+          "$id": "4",
+          "Id": "0a8a8cc7-bcee-40a0-a258-4630eb52565d",
+          "Metadata": {
+            "$id": "5",
+            "Name": "",
+            "Description": "",
+            "Version": "2.2.9.0",
+            "DateCreated": "2026-04-03 19:49:46Z",
+            "DateLastBuilt": "2026-04-03 19:49:46Z",
+            "DateLastSaved": "2026-04-03 19:49:46Z"
+          },
+          "Nodes": {
+            "$id": "6",
+            "339": {
+              "$id": "7",
+              "$type": "QuadSpinner.Gaea.Nodes.Slump, Gaea.Nodes",
+              "Seed": 46551,
+              "Id": 339,
+              "Name": "Slump",
+              "Position": {
+                "$id": "8",
+                "X": 26250.389,
+                "Y": 25986.916
+              },
+              "Ports": {
+                "$id": "9",
+                "$values": [
+                  {
+                    "$id": "10",
+                    "Name": "In",
+                    "Type": "PrimaryIn",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "7"
+                    }
+                  },
+                  {
+                    "$id": "11",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "7"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "12",
+                "$values": []
+              }
+            },
+            "186": {
+              "$id": "13",
+              "$type": "QuadSpinner.Gaea.Nodes.Canyon, Gaea.Nodes",
+              "Seed": 38090,
+              "Id": 186,
+              "Name": "Canyon",
+              "Position": {
+                "$id": "14",
+                "X": 26529.555,
+                "Y": 26050.25
+              },
+              "Ports": {
+                "$id": "15",
+                "$values": [
+                  {
+                    "$id": "16",
+                    "Name": "In",
+                    "Type": "PrimaryIn",
+                    "Record": {
+                      "$id": "17",
+                      "From": 339,
+                      "To": 733,
+                      "FromPort": "Out",
+                      "ToPort": "In"
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "13"
+                    }
+                  },
+                  {
+                    "$id": "18",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "13"
+                    }
+                  },
+                  {
+                    "$id": "19",
+                    "Name": "Depth",
+                    "Type": "Out",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "13"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "20",
+                "$values": []
+              }
+            },
+            "459": {
+              "$id": "21",
+              "$type": "QuadSpinner.Gaea.Nodes.DuneSea, Gaea.Nodes",
+              "Seed": 12570,
+              "Id": 459,
+              "Name": "DuneSea",
+              "Position": {
+                "$id": "22",
+                "X": 26480.389,
+                "Y": 26165.25
+              },
+              "Ports": {
+                "$id": "23",
+                "$values": [
+                  {
+                    "$id": "24",
+                    "Name": "In",
+                    "Type": "PrimaryIn",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "21"
+                    }
+                  },
+                  {
+                    "$id": "25",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "21"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "26",
+                "$values": []
+              }
+            },
+            "435": {
+              "$id": "27",
+              "$type": "QuadSpinner.Gaea.Nodes.MountainRange, Gaea.Nodes",
+              "Seed": 61296,
+              "Id": 435,
+              "Name": "MountainRange",
+              "Position": {
+                "$id": "28",
+                "X": 26163.72,
+                "Y": 26165.25
+              },
+              "Ports": {
+                "$id": "29",
+                "$values": [
+                  {
+                    "$id": "30",
+                    "Name": "In",
+                    "Type": "PrimaryIn",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "27"
+                    }
+                  },
+                  {
+                    "$id": "31",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "27"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "32",
+                "$values": []
+              }
+            },
+            "421": {
+              "$id": "33",
+              "$type": "QuadSpinner.Gaea.Nodes.Rugged, Gaea.Nodes",
+              "Seed": 10845,
+              "Id": 421,
+              "Name": "Rugged",
+              "Position": {
+                "$id": "34",
+                "X": 26480.389,
+                "Y": 26268.584
+              },
+              "Ports": {
+                "$id": "35",
+                "$values": [
+                  {
+                    "$id": "36",
+                    "Name": "In",
+                    "Type": "PrimaryIn",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "33"
+                    }
+                  },
+                  {
+                    "$id": "37",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "33"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "38",
+                "$values": []
+              }
+            }
+          },
+          "Groups": {
+            "$id": "39"
+          },
+          "Notes": {
+            "$id": "40"
+          },
+          "GraphTabs": {
+            "$id": "41",
+            "$values": [
+              {
+                "$id": "42",
+                "Name": "Graph 1",
+                "Color": "Brass",
+                "ZoomFactor": 1.0,
+                "ViewportLocation": {
+                  "$id": "43",
+                  "X": 25965.965,
+                  "Y": 25929.07
+                }
+              }
+            ]
+          },
+          "Width": 5000.0,
+          "Height": 2500.0,
+          "Ratio": 0.5,
+          "Regions": {
+            "$id": "44",
+            "$values": []
+          }
+        },
+        "Automation": {
+          "$id": "45",
+          "Bindings": {
+            "$id": "46",
+            "$values": []
+          },
+          "Expressions": {
+            "$id": "47"
+          },
+          "Variables": {
+            "$id": "48"
+          }
+        },
+        "BuildDefinition": {
+          "$id": "49",
+          "Type": "Standard",
+          "Destination": "<Builds>\\[Filename]\\[+++]",
+          "Resolution": 2048,
+          "BakeResolution": 2048,
+          "TileResolution": 1024,
+          "BucketResolution": 2048,
+          "NumberOfTiles": 3,
+          "EdgeBlending": 0.25,
+          "TileZeroIndex": true,
+          "TilePattern": "_y%Y%_x%X%",
+          "OrganizeFiles": "NodeSubFolder",
+          "ColorSpace": "sRGB"
+        },
+        "State": {
+          "$id": "50",
+          "BakeResolution": 2048,
+          "PreviewResolution": 1024,
+          "HDResolution": 4096,
+          "SelectedNode": 435,
+          "NodeBookmarks": {
+            "$id": "51",
+            "$values": []
+          },
+          "Viewport": {
+            "$id": "52",
+            "CameraPosition": {
+              "$id": "53",
+              "$values": []
+            },
+            "Camera": {
+              "$id": "54"
+            },
+            "RenderMode": "Realistic",
+            "AmbientOcclusion": true,
+            "Shadows": true
+          }
+        },
+        "BuildProfiles": {
+          "$id": "55"
+        }
+      }
+    ]
+  },
+  "Id": "43dd2846",
+  "Branch": 1,
+  "Metadata": {
+    "$id": "56",
+    "Name": "",
+    "Description": "",
+    "Version": "2.2.9.0",
+    "Edition": "Professional",
+    "Owner": "",
+    "DateCreated": "2026-04-03 19:49:46Z",
+    "DateLastBuilt": "2026-04-03 19:49:46Z",
+    "DateLastSaved": "2026-04-03 19:49:46Z",
+    "ModifiedVersion": "2.2.9.0"
+  }
+}
