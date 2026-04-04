@@ -1,4 +1,2 @@
-# terrain_datasets
-Library of terrain datasets. 
-
-All of these were created by me using Gaea by Quadspinner.
+# GaeaSandbox
+Library of terrain source files for use with Gaea 2.
